@@ -25,9 +25,8 @@ body {
       rgba(27,27,27,0.85),
       rgba(27,27,27,0.85)
     ),
-    url("hero.jpg") center/cover no-repeat;
+    url("hero.jpg") center / cover no-repeat;
 }
-
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.14em;
