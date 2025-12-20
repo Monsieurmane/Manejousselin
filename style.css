@@ -300,3 +300,24 @@ footer {
     rgba(20,20,20,0.95)
   );
 }
+/* ===== LUXURY COLOR SYSTEM ===== */
+
+:root {
+  --dark-main: #141414;
+  --dark-secondary: #1C1C1C;
+  --gold-accent: #C9A15A;
+  --soft-beige: #E6DCCB;
+  --muted-text: #9A948C;
+}
+
+/* GLOBAL RESET */
+body {
+  background-color: var(--dark-main);
+  color: var(--soft-beige);
+  border: none;
+}
+
+/* REMOVE ALL BRIGHT BORDERS */
+* {
+  border-color: rgba(255,255,255,0.08) !important;
+}
