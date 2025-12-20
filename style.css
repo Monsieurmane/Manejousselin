@@ -309,7 +309,54 @@ footer {
   --soft-beige: #E6DCCB;
   --muted-text: #9A948C;
 }
+/* ===== HEADER LUXURY STYLE ===== */
 
+.lux-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(20,20,20,0.92);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+
+.lux-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.lux-logo a {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: var(--soft-beige);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.lux-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.lux-menu a {
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--muted-text);
+  letter-spacing: 0.6px;
+  transition: color 0.3s ease;
+}
+
+.lux-menu a:hover {
+  color: var(--soft-beige);
+}
+
+.lux-cta {
+  color: var(--gold-accent) !important;
+  border-bottom: 1px solid rgba(201,161,90,0.6);
+  padding-bottom: 3px;
+}
 /* GLOBAL RESET */
 body {
   background-color: var(--dark-main);
@@ -320,4 +367,7 @@ body {
 /* REMOVE ALL BRIGHT BORDERS */
 * {
   border-color: rgba(255,255,255,0.08) !important;
+}
+.section:first-of-type {
+  padding-top: 140px;
 }
