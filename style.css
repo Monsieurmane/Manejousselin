@@ -371,3 +371,54 @@ body {
 .section:first-of-type {
   padding-top: 140px;
 }
+/* ===== MOBILE MENU ICON ===== */
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--soft-beige);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* ===== MOBILE MENU BEHAVIOR ===== */
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .lux-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lux-menu {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    background: var(--dark-secondary);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0;
+    display: none;
+  }
+
+  .lux-menu a {
+    font-size: 14px;
+  }
+
+  .lux-menu.open {
+    display: flex;
+  }
+
+  /* Push content down */
+  .section:first-of-type {
+    padding-top: 140px;
+  }
+}
