@@ -488,3 +488,11 @@ body {
     margin-top: 60px;
   }
 }
+.project-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1 !important;
+  visibility: visible !important;
+  background: #222;
+}
