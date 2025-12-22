@@ -643,11 +643,6 @@ a {
 .lux-menu a:hover {
   color: var(--soft-beige);
 }
-:root {
-  --font-base: 16px;
-  --font-lg: 20px;
-  --font-xl: 26px;
-}
 
 body {
   background: var(--dark-main);
@@ -657,11 +652,6 @@ a {
   color: var(--gold-accent);
 }
 
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: var(--font-xl);
-  font-weight: 500;
-}
 
 h2 {
   font-size: var(--font-lg);
@@ -682,10 +672,6 @@ footer a {
   object-fit: cover;
   filter: brightness(0.9); /* consistent mood */
 }
-h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
-}
 
-body, p, li {
-  font-family: 'Inter', sans-serif;
-}
+
+
