@@ -52,19 +52,21 @@ h1 {
 }
 
 /* BUTTON */
-.btn-primary {
-  background-color: var(--gold-accent);
-  color: var(--dark-main);
-  padding: 14px 28px;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  text-decoration: none;
+.btn {
   display: inline-block;
+  padding: 12px 28px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-.btn-primary:hover {
-  opacity: 0.9;
+.btn:hover {
+  background: #ffffff;
+  color: #111111;
 }
 
 /* SECTIONS */
