@@ -496,3 +496,56 @@ body {
   visibility: visible !important;
   background: #222;
 }
+.lux-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #0f0f0f;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  z-index: 999;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.footer-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.footer-contact a,
+.footer-center a,
+.footer-right a {
+  color: rgba(255,255,255,0.65);
+  text-decoration: none;
+  margin-right: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-center a:last-child,
+.footer-right a:last-child {
+  margin-right: 0;
+}
+
+.footer-contact a:hover,
+.footer-center a:hover,
+.footer-right a:hover {
+  color: #c9a45c; /* accent luxe */
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
