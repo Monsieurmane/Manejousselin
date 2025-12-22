@@ -307,7 +307,7 @@ footer {
   --dark-secondary: #1C1C1C;
   --gold-accent: #C9A15A;
   --soft-beige: #E6DCCB;
-  --muted-text: #9A948C;
+  --muted-text: #8F8A84;
 }
 /* ===== HEADER LUXURY STYLE ===== */
 
@@ -359,9 +359,11 @@ footer {
 }
 /* GLOBAL RESET */
 body {
-  background-color: var(--dark-main);
+  background: var(--dark-main);
   color: var(--soft-beige);
-  border: none;
+}
+a {
+  color: var(--gold-accent);
 }
 
 /* REMOVE ALL BRIGHT BORDERS */
@@ -649,9 +651,11 @@ body {
 }
 
 body {
-  font-size: var(--font-base);
-  font-family: 'Inter', sans-serif;
-  color: #E6DCCB;
+  background: var(--dark-main);
+  color: var(--soft-beige);
+}
+a {
+  color: var(--gold-accent);
 }
 
 h1 {
