@@ -642,3 +642,24 @@ body {
 .lux-menu a:hover {
   color: var(--soft-beige);
 }
+:root {
+  --font-base: 16px;
+  --font-lg: 20px;
+  --font-xl: 26px;
+}
+
+body {
+  font-size: var(--font-base);
+  font-family: 'Inter', sans-serif;
+  color: #E6DCCB;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: var(--font-xl);
+  font-weight: 500;
+}
+
+h2 {
+  font-size: var(--font-lg);
+}
