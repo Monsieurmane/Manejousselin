@@ -737,5 +737,36 @@ footer a {
   text-align: left;
   opacity: 0.6;
 }
+@media (max-width: 768px) {
 
+  .site-footer {
+    padding: 50px 24px 30px;
+    text-align: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-left,
+  .footer-right {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  .footer-legal {
+    align-items: center;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
 
