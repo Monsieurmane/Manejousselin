@@ -2,13 +2,16 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>manejousselin - Agence de Design & Marque</title>
+  <title>manejousselin – Agence de Design & Marque</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+<!-- ================= HEADER ================= -->
 <header class="lux-header">
   <div class="lux-nav container">
 
@@ -16,45 +19,41 @@
       <a href="index.html">manejousselin</a>
     </div>
 
-    <!-- Mobile menu button -->
-    <script>
-  const toggle = document.querySelector('.menu-toggle');
-  const menu = document.querySelector('.lux-menu');
-
-  toggle.addEventListener('click', () => {
-    menu.classList.toggle('open');
-  });
-</script>
+    <!-- Bouton mobile -->
     <button class="menu-toggle" aria-label="Ouvrir le menu">
       ☰
     </button>
 
     <nav class="lux-menu">
-  <a href="index.html">Accueil</a>
-  <a href="projets.html">Projets</a>
-  <a href="marque.html">Marque</a>
-  <a href="espace.html">Intérieur</a>
-  <a href="premium.html">Premium</a>
-  <a href="#contact" class="lux-cta">Contact</a>
-</nav>
+      <a href="index.html">Accueil</a>
+      <a href="projets.html">Projets</a>
+      <a href="marque.html">Marque</a>
+      <a href="espace.html">Intérieur</a>
+      <a href="premium.html">Premium</a>
+      <a href="#contact" class="lux-cta">Contact</a>
+    </nav>
 
   </div>
 </header>
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container">
-      <p class="eyebrow">Design d’intérieur & Développement de marque</p>
-      <h1>Des espaces qui expriment une identité.<br>Des marques ancrées dans le réel.</h1>
-      <p class="hero-text">
-        Votre image de marque commence en ligne, mais elle se vit dans votre espace.
-      </p>
-      <a href="#contact" class="btn">Demander une consultation</a>
-    </div>
-  </section>
 
-  <!-- SERVICES -->
+<main>
 
-  <!-- PACKAGES -->
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Design d’intérieur & Développement de marque</p>
+    <h1>
+      Des espaces qui expriment une identité.<br>
+      Des marques ancrées dans le réel.
+    </h1>
+    <p class="hero-text">
+      Votre image de marque commence en ligne, mais elle se vit dans votre espace.
+    </p>
+    <a href="#contact" class="btn">Demander une consultation</a>
+  </div>
+</section>
+
+<!-- ================= OFFRES ================= -->
 <section class="section packages-preview">
   <div class="container">
 
@@ -66,121 +65,103 @@
 
     <div class="packages">
 
-      <!-- PACK MARQUE -->
       <div class="package">
         <h3>Création de marque</h3>
         <p class="package-desc">
-          Construire une image de marque claire, professionnelle et durable,
-          en ligne comme hors ligne.
+          Construire une image de marque claire, professionnelle et durable.
         </p>
-
         <ul>
           <li>Positionnement & identité</li>
           <li>Moodboard et palette</li>
           <li>Supports numériques et réels</li>
           <li>Base visuelle pour site web</li>
         </ul>
-
         <p class="price">À partir de 200 000 CFA</p>
-
         <a href="marque.html" class="btn">Découvrir l’offre</a>
       </div>
 
-      <!-- PACK INTERIEUR -->
       <div class="package">
         <h3>Aménagement intérieur</h3>
         <p class="package-desc">
-          Repenser et structurer vos espaces pour qu’ils soient fonctionnels,
-          esthétiques et accueillants.
+          Repenser vos espaces pour qu’ils soient fonctionnels et cohérents.
         </p>
-
         <ul>
           <li>Analyse de l’espace</li>
           <li>Concept d’aménagement</li>
           <li>Choix matériaux & mobilier</li>
           <li>Direction esthétique</li>
         </ul>
-
         <p class="price">À partir de 250 000 CFA</p>
-
         <a href="espace.html" class="btn">Découvrir l’offre</a>
       </div>
 
-      <!-- PACK PREMIUM -->
       <div class="package featured">
-        <h3>& Premium Deluxe</h3>
+        <h3>Premium Deluxe</h3>
         <p class="package-desc">
-          Une approche globale pour aligner votre image,
-          votre espace et l’expérience client.
+          Une approche globale pour aligner image, espace et expérience client.
         </p>
-
         <ul>
           <li>Stratégie de marque complète</li>
-          <li>Concept design image & espace</li>
+          <li>Concept image & espace</li>
           <li>Aménagement intérieur</li>
           <li>Cohérence digitale & physique</li>
         </ul>
-
         <p class="price">À partir de 500 000 CFA</p>
-
-        <a href="premium.html" class="btn btn-gold">Découvrir l’offre</a>
+        <a href="premium.html" class="btn">Découvrir l’offre</a>
       </div>
 
     </div>
-
   </div>
 </section>
 
-  <!-- PROCESS -->
- <section class="section">
-    <div class="container">
-      <h2>Processus</h2>
+<!-- ================= PROCESS ================= -->
+<section class="section">
+  <div class="container">
+    <h2>Processus</h2>
+    <ol class="process">
+      <li><strong>Analyse</strong> — compréhension du contexte et des objectifs.</li>
+      <li><strong>Concept</strong> — traduction de l’identité en direction design.</li>
+      <li><strong>Ajustement</strong> — cohérence esthétique et fonctionnelle.</li>
+      <li><strong>Accompagnement</strong> — recommandations concrètes.</li>
+    </ol>
+  </div>
+</section>
 
-      <ol class="process">
-        <li><strong>Analyse</strong> — compréhension de votre marque, de votre espace et de vos contraintes.</li>
-        <li><strong>Concept</strong> — traduction de l’identité en direction spatiale et matérielle.</li>
-        <li><strong>Ajustement</strong> — cohérence entre esthétique, usage et faisabilité.</li>
-        <li><strong>Accompagnement</strong> — recommandations concrètes pour la mise en œuvre.</li>
-      </ol>
-    </div>
-  </section>
+<!-- ================= À PROPOS ================= -->
+<section class="section light">
+  <div class="container">
+    <h2>À propos</h2>
+    <p class="section-text">
+      Manejousselin est une agence de design indépendante spécialisée dans
+      la création d’identités de marque et d’espaces intérieurs cohérents,
+      durables et maîtrisés, entre l’Europe et l’Afrique.
+    </p>
+  </div>
+</section>
 
+</main>
 
-  <!-- ABOUT -->
-  <section class="section light">
-    <div class="container">
-      <h2>À propos</h2>
-      <p class="section-text">
-        Manejousselin est une agence de design indépendante, spécialisée dans la conception d’identités de marque et d’espaces intérieurs pensés dans leur globalité.
-
-L’agence développe des projets où l’image, l’espace et l’usage s’articulent avec justesse, dans une recherche constante d’équilibre entre esthétique, fonctionnalité et pérennité. Chaque intervention repose sur une compréhension fine du contexte, des contraintes techniques et de l’expérience recherchée.
-
-La démarche privilégie la cohérence plutôt que l’effet, la précision plutôt que l’accumulation. Les choix formels, matériels et spatiaux sont guidés par une logique claire et une vision durable, capables de traverser le temps sans dépendre des tendances.
-
-Entre l’Europe et l’Afrique, Manejousselin accompagne marques, entreprises et lieux dans la création d’univers sobres, lisibles et maîtrisés, conçus pour exprimer une identité forte et offrir une expérience juste, à la fois fonctionnelle et mémorable.
-      </p>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-</footer>
-  <footer class="site-footer">
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
   <div class="footer-container">
-   
-     <!-- Colonne droite -->
+
+    <!-- Gauche -->
+    <div class="footer-left">
+      <p class="footer-title">manejousselin</p>
+      <p>Design d’intérieur & branding</p>
+      <p>contact@manejousselin.com</p>
+      <div class="footer-bottom">
+        © manejousselin 2025
+      </div>
+    </div>
+
+    <!-- Droite -->
     <div class="footer-right">
       <div class="footer-socials">
-        <a href="#" aria-label="Instagram">
-          <img src="icons/instagram.svg" alt="Instagram">
-        </a>
-        <a href="#" aria-label="TikTok">
-          <img src="icons/tiktok.svg" alt="TikTok">
-        </a>
-        <a href="#" aria-label="X">
-          <img src="icons/x.svg" alt="X">
-        </a>
+        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="icons/tiktok.svg" alt="TikTok"></a>
+        <a href="#"><img src="icons/x.svg" alt="X"></a>
       </div>
-
       <div class="footer-legal">
         <a href="imprint.html">Mentions légales</a>
         <a href="privacy.html">Politique de confidentialité</a>
@@ -189,5 +170,16 @@ Entre l’Europe et l’Afrique, Manejousselin accompagne marques, entreprises e
 
   </div>
 </footer>
+
+<!-- ================= SCRIPT MENU MOBILE ================= -->
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.lux-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('open');
+  });
+</script>
+
 </body>
 </html>
