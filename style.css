@@ -785,7 +785,7 @@ footer a {
   padding-left: 0;
   }
 .footer-left p {
-  padding-left: 0;
+  padding: 0 40px;
 }
 .footer {
   color: #b8b8b8;
